@@ -631,6 +631,10 @@ header{
 		height: 320px;
 	}
 
+	.footer{
+		margin-top: 125px;
+	}
+
 	.footer-tel{
 		display: none;
 	}
