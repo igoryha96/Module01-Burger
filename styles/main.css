@@ -796,10 +796,13 @@ header{
 		gap: 12px;
 		row-gap: 24px;
 		max-width: 300px;
+		
 	}
 
 	.menu-grid-title{
 		margin: 16px 0px 16px 0px;
+		font-size: 13px;
+		font-weight: 600;
 	}
 
 	.menu-grid-price{
