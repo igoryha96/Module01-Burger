@@ -720,6 +720,7 @@ header{
 	.menu-select{
 		font-size: 12px;
 		max-width: 136px;
+		padding: 12px 20px;
 	}
 
 	.menu-grid{
@@ -821,6 +822,11 @@ header{
 		gap:6px;
 		padding-bottom: 95px;
 	}
+
+	.menu-grid-btn{
+		padding: 10px 21px;
+	}
+
 
 	.footer{
 		margin-top: 0;
