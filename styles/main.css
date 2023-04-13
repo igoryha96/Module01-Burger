@@ -257,7 +257,9 @@ header{
 	font-weight: 400;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	appearance: none;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
 	flex-basis: 279px;
 	background-image: url(../img/arrow.svg);
 	background-size: 12.79px 7.75px;
@@ -287,7 +289,8 @@ header{
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 	width: 100%;
 	height: 430px;
 }
@@ -399,7 +402,7 @@ header{
 .footer-list-tel a{
 	font-size: 20px;
 	color: #FBB731;
-	font-size: 900;
+	font-weight: 900;
 }
 
 .footer-list-tel a:hover{
@@ -607,7 +610,7 @@ header{
 	}
 	
 	.banner-box{
-		background-position: -80 center;
+		background-position: -80px center;
 		padding: 100px 0px 120px 40px;
 	}
 
